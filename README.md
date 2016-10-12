@@ -10,7 +10,7 @@ Pre) attach volume, mount to /data, su - w205
 
 `ssh-keygen -t rsa -b 4096 -C "yourgithub@email.com"`
 
-> When promoted "enter a file in which to save the key" just PRESS ENTER
+> When prompted "enter a file in which to save the key" just PRESS ENTER
 
 > Default location is ~/.ssh/id_rsa
 
@@ -27,7 +27,9 @@ Add the new SSH key to the ssh-agent
 
 
 3) Copy the id_rsa.pub contents - open in text editor (vi) and copy
+
 Go to the github repo, click settings, SSH and GPG keys, and add new key
+
 Copy the id_rsa.pub contents into the "Key" field.
 
 
