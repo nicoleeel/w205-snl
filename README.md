@@ -28,13 +28,16 @@ Add the new SSH key to the ssh-agent
 
 3) Copy the id_rsa.pub contents - open in text editor (vi) and copy
 
-Go to the github repo, click settings, SSH and GPG keys, and add new key
+Go to the github repo, click settings (under your icon at the very top right), SSH and GPG keys, and add new key
 
 Copy the id_rsa.pub contents into the "Key" field.
+
+To quit text editor without saving, hit your *Esc* button and then type `:quit!`
 
 
 4) Now go to the folder you want to clone the github repo into
 Configure your username and email
+
 
 ```
 git config --global user.name "First, Last"
@@ -75,6 +78,13 @@ git push origin yourbranchname
 9) Once you've pushed successfully, there should be a pull request either made in the github, or you can go to the site and manually create a pull request. This will be a request to merge with master.
 
 
+10) PROVE YOU DID IT ALL SUCCESFULLY
+
+Edit this text file and mark an X in your checkbox below!
+
+[x] Nikki
+[] Scott
+[] Lisa
 
 
 
