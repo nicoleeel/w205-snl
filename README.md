@@ -78,6 +78,13 @@ git push origin yourbranchname
 9) Once you've pushed successfully, there should be a pull request either made in the github, or you can go to the site and manually create a pull request. This will be a request to merge with master.
 
 
+10) PROVE YOU DID IT ALL SUCCESFULLY
+
+Edit this text file and mark an X in your checkbox below!
+
+[x] Nikki
+[] Scott
+[] Lisa
 
 
 
