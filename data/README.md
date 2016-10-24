@@ -1,6 +1,6 @@
 data folder
 
-Initial steps to obtain and clean data files:
+Initial steps to obtain and clean data files:  
 1) Fill out the form here: https://www.yelp.com/dataset_challenge/dataset  
 2) Use Yelp's python script to convert the data files to .csv  
 3) Load csvs in python (Jupyter notebook) locally and do the following:  
