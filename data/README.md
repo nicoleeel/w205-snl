@@ -1,5 +1,14 @@
 data folder
 
+Initial steps to obtain and clean data files:  
+1) Fill out the form here: https://www.yelp.com/dataset_challenge/dataset  
+2) Use Yelp's python script to convert the data files to .csv  
+3) Load csvs in python (Jupyter notebook) locally and do the following:  
+    a) Replace hard returns with a space (Business and Review files)  
+    b) Remove double-quotes (Review file)  
+    c) Export new .csv files with a pipe (|) delimiter (individual fields contain commas, but none contain a pipe)  
+4) Upload to dropbox (Scott _very_ generously dedicated his dropbox space for this purpose. Capacity is juuuuust big enough.  
+
 Use these commands to download the csv's from Scott's dropbox, strip the column headers, create the hdfs folder structure, and move into hdfs
 
 wget https://dl.dropboxusercontent.com/u/89189384/yelp_academic_dataset_business.csv  
