@@ -83,7 +83,7 @@ git push origin yourbranchname
 Edit this text file and mark an X in your checkbox below!
 
 [x] Nikki
-[] Scott
+[x] Scott
 [] Lisa
 
 
