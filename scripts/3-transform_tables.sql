@@ -1,13 +1,16 @@
-drop table business_schema;
+drop table  yelp_restaurants;
 
-create table business_schema as select
+create table yelp_restaurants as select
 business_id,
 name,
-type,
+categories,
 full_address,
 city,
 state,
 latitude,
 longitude
-from yelp_business;
+from yelp_business
+where categories rlike 'Restaurants';
+
+
 
