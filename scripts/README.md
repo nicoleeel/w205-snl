@@ -9,5 +9,7 @@
 bash 1-setup.sh  
 hive -f 2-yelp_base_ddl.sql  
 hive -f 3-transform_tables.sql  
+hive -f user_visits.sql
+hive -f user_prefs.sql
 
-*last updated 10/26/2016*
+*last updated 11/13/2016*
