@@ -84,7 +84,7 @@ Edit this text file and mark an X in your checkbox below!
 
 [x] Nikki
 [x] Scott
-[] Lisa
+[X] Lisa
 
 
 
