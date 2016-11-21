@@ -7,9 +7,10 @@
 
 ## Commands to run scripts:  
 bash 1-setup.sh  
-hive -f 2-yelp_base_ddl.sql  
-hive -f 3-transform_tables.sql  
-hive -f user_visits.sql
-hive -f user_prefs.sql
+hive -f 2-yelp_base_ddl.sql  # creates base tables from csv files
+hive -f 3-transform_tables.sql  # transforms base tables into usable schemas
+hive -f user_actions.sql  # finds every interaction a user has with a restaurant
+hive -f user_prefs.sql  # finds which restaurants each user 'positively interacts' with the most
+hive -f user_cats.sql  # finds which type of restaurant each user 'positively interacts' with the most
 
-*last updated 11/13/2016*
+*last updated 11/20/2016*
