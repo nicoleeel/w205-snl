@@ -6,7 +6,7 @@
 ## 3rd step has two options - hive sql or spark sql files. working on both.
 
 ## Commands to run scripts:  
-bash 1-setup.sh  
+bash 1-setup.sh
 hive -f 2-yelp_base_ddl.sql  # creates base tables from csv files
 hive -f 3-transform_tables.sql  # transforms base tables into usable schemas
 hive -f user_actions.sql  # finds every interaction a user has with a restaurant
