@@ -1,3 +1,5 @@
+drop table review_loc;
+
 create table review_loc as select 
     max(r.date) as date
     ,r.user_id as user_id
