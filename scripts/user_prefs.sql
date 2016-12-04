@@ -2,8 +2,10 @@
 -- can show us users who have a favorite restaurant they visit most frequently
 -- most users will not have more than 1 interaction with a restaurant, but for those that do, it will make it easier to provide recommendations to similar users
 
+drop table if exists yelp_user_prefs;
+
 create table yelp_user_prefs as
-select user_id, business_id, count(business_id) count_of_business
+select user_id, business_id, count(*) as count_of_business, first(categories)
 from yelp_user_actions
 where business_id is not null
 group by user_id, business_id
