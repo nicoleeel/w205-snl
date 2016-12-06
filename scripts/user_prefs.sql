@@ -5,7 +5,7 @@
 drop table if exists yelp_user_prefs;
 
 create table yelp_user_prefs as
-select user_id, business_id, count(*) as count_of_business, first(categories)
+select user_id, business_id, count(*) as count_of_business, first(categories) as business_category
 from yelp_user_actions
 where business_id is not null
 group by user_id, business_id
