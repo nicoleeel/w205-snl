@@ -1,4 +1,4 @@
-drop table review_loc;
+drop table if exists review_loc;
 
 create table review_loc as select 
     max(r.date) as date
