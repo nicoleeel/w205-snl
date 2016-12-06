@@ -1,4 +1,4 @@
-drop table user_loc;
+drop table if exists user_loc;
 
 create table user_loc as select
     u.user_id as user_id

@@ -8,7 +8,7 @@
 
 -- Purpose: middle-step table for another query to call on
 
-drop table yelp_user_actions;
+drop table if exists yelp_user_actions;
 
 create table yelp_user_actions as
 select actions.user_id, actions.business_id, rest.categories from ( 

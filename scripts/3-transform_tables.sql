@@ -1,4 +1,4 @@
-drop table  yelp_restaurants;
+drop table if exists yelp_restaurants;
 
 create table yelp_restaurants as select
 business_id,

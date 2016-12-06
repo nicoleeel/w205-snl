@@ -1,4 +1,4 @@
-drop table yelp_business;
+drop table if exists yelp_business;
 create external table if not exists yelp_business(
 row_number string,
 at_ambience_divey string,
@@ -109,7 +109,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/yelp/business';
 
-drop table yelp_checkin;
+drop table if exists yelp_checkin;
 create external table if not exists yelp_checkin(
 row_number string,
 checkin90 int,
@@ -292,7 +292,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/yelp/checkin';
 
-drop table yelp_review;
+drop table if exists yelp_review;
 create external table if not exists yelp_review(
 row_number string,
 user_id string,
@@ -315,7 +315,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/yelp/review';
 
-drop table yelp_tip;
+drop table if exists yelp_tip;
 create external table if not exists yelp_tip(
 row_number string,
 user_id string,
@@ -334,7 +334,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/yelp/tip';
 
-drop table yelp_user;
+drop table if exists yelp_user;
 create external table if not exists yelp_user(
 row_number string,
 yelping_since date,

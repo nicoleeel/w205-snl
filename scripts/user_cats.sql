@@ -8,7 +8,7 @@
 -- merges them all together
 -- counts number of times each category shows up per user
 
-drop table yelp_user_cats;
+drop table if exists yelp_user_cats;
 
 create table yelp_user_cats as
 select total.user_id, total.category, count(total.category) count_of_category from
