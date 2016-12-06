@@ -133,5 +133,11 @@ user, dist, maxrec = error_checking(args)
 
 # find the top recommended restaurants and some of their information
 results = user_rec(user, dist, maxrec)
-print results
+for i in results:
+    print 'Result #%s' %i
+    print 'Business: ',results[i]['id']
+    print 'Distance: %0.4f' %results[i]['distance']
+    print 'Categories: ',results[i]['categories']
+    print 'GPS Location: ',results[i]['location']
+    print ''
 
