@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Documentation for W205-SNL: Yelpflix
 
 
