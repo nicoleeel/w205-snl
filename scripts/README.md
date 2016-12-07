@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Documentation for W205-SNL: Yelpflix
 
 
@@ -18,7 +19,7 @@ Running our program is really easy! Before starting our program, we assume you:
 
 Once you've pulled the latest updates from github, follow these steps:
 
-1. make sure you're working in _w205-snl//home/w205/w205-snl/scripts_  
+1. make sure you're working in /home/w205/w205-snl/scripts_  
 2. run `RUNME.sh`  
   * Note this will take a little while to run as the processing layer computes  
 3. You can now access the serving layer via **user_rec.py**. This python file takes 3 inputs: user_id, max distance in miles from user, and max number of restaurants to return. To supply these values, enter them after the call to **user_rec.py**.  
@@ -35,6 +36,3 @@ rpOyqD_893cqmDAtJLbdog
 fHtTaujcyKvXglE33Z5yIw  
 SIBCL7HBkrP4llolm4SC2A  
 ````
-
-
-*last updated 12/5/2016*

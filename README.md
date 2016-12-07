@@ -1,5 +1,11 @@
 # w205-snl
-MIDS W205, Fall 2016: Scott, Nikki, Lisa
+MIDS W205, Fall 2016: Scott, Nikki, Lisa  
+  
+## Running the Yelpflix application  
+Please navigate to the "scripts" folder for the instructions on how to run the application  
+Instructions will be in the README.md file  
+All necessary code is in that folder  
+  
 
 ## setting up this git repository on your EC2 instance
 
